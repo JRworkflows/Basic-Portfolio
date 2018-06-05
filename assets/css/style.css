@@ -1,18 +1,81 @@
-#Header {
-    border-bottom: solid 20px;
+.Main {
+    height: 720px;
+    width: 100%;
+    background-color: lightgrey;
+    border-top: 1px solid grey;
+}
+Header {
+    display: block;
+    height: 100px;
+     border-bottom: 2px solid grey;
+     background-color: white;
+     
 }
 #Name {
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 15%;
+    margin-left: 24%;
     color: white;
     background-color: rgb(63, 191, 191);
     width: 100px;
     border: 25px;
     padding: 25px;
+    margin-bottom: -15px;
 }
-nav {
-    float: right;
+ol {
+    margin-left: 50%;
+    margin-top: 15px;
+    text-align: end;
+    position: absolute;
+    top: 2%;
+}
+li {
+  display: inline;
+  padding: 25px;
+}
+.Nav a {
+    
+    color: grey;
+    
+}
+#AboutH {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 20px 70px;
+    color: rgb(63, 191, 191);
+    border-bottom: 2px solid grey;
 
 }
-
+#Port {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 20px 70px;
+    color: rgb(63, 191, 191);
+    border-bottom: 2px solid grey;
+}
+section {
+    width: 960px;
+    background-color: white;
+    height: 540px;
+    margin: 0 auto;
+    padding: 5px;
+    left: 360px;
+    top: 12.5%;
+}
+#AboutP {
+    padding-top: 5px;
+    font-family: 'Bangers' , cursive;
+    font-size: 24px;
+    line-height: 28px;
+} 
+#Footer {
+    height: 100px;
+    background-color: gray;
+    border-top: 5px solid rgb(63, 191, 191); 
+}
+td {
+    width: 960px;
+    
+}
